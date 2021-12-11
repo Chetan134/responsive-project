@@ -1,0 +1,240 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.leftNav
+{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    position: sticky;
+    top: 0;
+}
+.rightNav
+{
+    width: 30%;
+    padding-left: 117px;
+
+}
+
+.border
+{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.largeCap
+{
+    font-size: 1.2em;
+
+}
+.large{
+    font-size: 3em;
+}
+.larger{
+    font-size: 4em;
+    text-align: center;
+}
+.smallCap
+{
+    font-size: 1em;
+}
+.logo{
+    font-weight: bold;
+    text-decoration: none;
+ color: white;
+ align-self: center;
+ 
+}
+.color{
+    color: white;
+}
+.txt
+{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.btn
+{
+    background: none;
+    color: white;
+    padding: 2px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('backgrond.jpg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 35em;
+}
+.pad{
+    padding: 2em;
+}
+.header{
+    display: flex;
+}
+.margin{
+    margin: 3em;
+}
+
+.pad1{
+    padding-top: 6em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.circle{
+    border-radius: 50%;
+    height: 200px;
+    margin-top: 2em;
+}
+.flex{
+    display: flex;
+    margin: 4px;
+}
+.box{
+    border: 2px black;
+}
+.border1{    background: whitesmoke;
+    border: 2px black;
+    width: 33%;
+    padding: 37px;
+    border-radius: 120px;
+    margin: 10px
+  
+}
+.margin{
+    margin: 2em;
+}
+.height{
+  height: 40%;
+  width: 100%;
+  border-radius: 100px;
+}
+.flex1 {
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    text-align: center;
+}
+.btn1{
+    background-color: blue;
+    padding: 9px 41px;
+    margin-top: 58px;
+    color: white;
+    border-radius: 20px;
+}
+.square{
+    border-radius: 5%;
+    height: 25em;
+    margin-top: 3em;   
+}
+.padd{
+
+   
+}
+.height1{
+    height: 100%;
+    background-color: cornsilk;
+}
+
+.paddd{
+    margin: 15px 160px;
+    background-color: cornsilk;
+}
+.input{
+    padding: 0 60%;
+    
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 40px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width: 1350px){
+.leftNav{
+    flex-direction: column;
+}
+.txt{
+    text-align: center;
+    font-size: 2em;
+}
+.logo{
+    font-size: 3em; 
+}
+.nav{
+    flex-direction: column;
+}
+.rightNav{
+    text-align: center;
+    margin-right: 110px;
+}
+.btn{
+    font-size: 1.2em;
+}
+.burger{
+    display: block;
+
+}
+.h-resp-nav{
+    height: 70px;
+}
+.none-resp{
+    opacity: 0;
+}
+.header{
+    flex-direction: column-reverse;
+}
+.circle{
+    border-radius: 50%;
+    width: 45%;
+    height: 55%;
+    align-self: center;
+}
+.pad{
+    text-align: center;
+}
+ .flex{
+    flex-direction: column-reverse;
+ }
+ .flex1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.border1{
+    width: 80%;
+}
+.square{
+    height: 480px;
+    width: 480px;
+    align-self: center;
+
+}
+.pad{
+    padding: 0;
+}
+.margin{
+    margin: 0;
+}
+}
+    
